@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 align="center">Pendaftaran Akun dan Biodata Mahasiswa Teknologi Informasi</h1>
+
+    <div class="form-container">
+    <form action=" ">
+  <legend align="center"> <p id="bio">Pendaftaran Akun dan Biodata</p> </legend>
+  
+        <label for="nama">Nama Lengkap:</label>
+        <br>
+        <input type="text" id="nama" name="nama"
+                placeholder="Masukkan Nama">
+        <br><br>
+
+        <label for="nim">NIM:</label>
+        <br>
+        <input type="text" id="nim" name="nim"
+                placeholder="Masukkan NIM">
+        <br><br>
+
+        <label for="password">Password:</label>
+        <br>
+        <input type="password" id="password" name="password"
+                placeholder="Masukkan Password">
+        <br><br>
+
+        <label for="confirm">Konfirmasi Password:</label>
+        <br>
+        <input type="password" id="confirm" name="confirm"
+                placeholder="Konfirmasi Password">
+        <br><br>
+
+        <label for="umur">Umur:</label>
+        <br>
+        <input type="number" id="umur" name="umur"
+                placeholder="Masukkan Umur">
+        <br><br>
+
+        <label for="tanggal">Tanggal Lahir:</label>
+        <br>
+        <input type="date" id="tanggal" name="tanggal"
+                placeholder="00-00-0000">
+        <br><br>
+
+        <label for="email">Email:</label>
+        <br>
+        <input type="email" id="email" name="email"
+                placeholder="Masukkan Alamat Email">
+        <br><br>
+
+        <label for="kom">Dari KOM :</label>
+            <select id="kom" name="kom">
+                <option value=" "> </option> 
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="c">C</option>
+            </select>
+        <br><br>
+
+        <label for="explain">Alasan Memilih Jurusan Ini:</label>
+        <br>
+        <textarea id="explain" name="explain" rows="4" cols="50"
+        placeholder="jelaskan"></textarea>
+        <br><br>
+
+        <p>Jenis Kelamin:</p>
+
+        <input type="radio" id="laki" name="jenis_kelamin" value="Laki-laki">
+        <label for="laki">Laki-laki</label>
+
+        <br>
+
+        <input type="radio" id="perempuan" name="jenis_kelamin" value="Perempuan">
+        <label for="perempuan">Perempuan</label>
+
+        <br><br>
+
+        <p>Matkul Favorit:</p>
+        <label>
+        <input type="checkbox" name="matkul" value="PTI">
+        PTI
+        </label>
+        <br>
+        <input type="checkbox" name="matkul" value="Daspro">
+        Daspro
+        </label>
+        <br>
+        <input type="checkbox" name="matkul" value="Proweb">
+        Proweb
+        </label>
+        <br>
+        <input type="checkbox" name="matkul" value="OAK">
+        OAK
+        </label>
+        <br>
+         <input type="checkbox" name="matkul" value="Matdas">
+        Matdas
+        </label>
+        <br><br>
+        <div class="kicau">
+             <input id=submit type="submit" value="Submit">
+        </div>
+</form>
+        </div>
+</body>
+</html>

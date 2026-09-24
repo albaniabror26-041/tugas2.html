@@ -1,0 +1,60 @@
+
+h1{
+    font-family :Arial, Helvetica, sans-serif;
+    font-size : 60px;
+    color : black ;
+    background: linear-gradient(to left,blue,aqua,darkblue);
+}
+
+form{
+    width:100%;
+}
+
+#bio{
+    font: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:black;
+}
+legend{
+    font-size:30px;
+    background: linear-gradient(to left,darkorange,red,orange);
+    font-weight: bold;
+}
+.form-container{
+    width: 500px;
+    max-width: 100%;
+    margin: auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    background: linear-gradient(to bottom,orange,yellow,darkorange);
+}
+textarea{
+    width:100%;
+    max-width:100%;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+.kacau{
+    text-align:center;
+}
+
+body{
+    background : linear-gradient(to right, aqua, lightblue,skyblue,cyan);
+}
+
+#submit{
+    display:flex;
+    justify-content: center;
+}
+.kicau{
+    display:flex;
+    justify-content: center;
+    
+}
+#submit{
+    font-size:20px;
+}
+
